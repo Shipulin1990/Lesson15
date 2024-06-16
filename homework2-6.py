@@ -21,7 +21,7 @@ def single_root_words(root_word, *other_words):
 
 print('Вариант 2')
 print(single_root_words('rich', 'richiest', 'orichalcum', 'cheers', 'richies'))
-# Ответ: ['richiest', 'richies']
+# Ответ: ['richiest', 'orichalcum', 'richies']
 
 print(single_root_words('Disablement', 'Able', 'Mable', 'Disable', 'Bagel'))
-# Ответ: ['Disable']
+# Ответ: ['Able', 'Disable']
